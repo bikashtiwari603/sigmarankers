@@ -1388,7 +1388,7 @@
         // GOOGLE SHEETS / EXCEL BACKEND INTEGRATION
         // ----------------------------------------------------
         // IMPORTANT: Replace the URL below with your Google Apps Script Web App URL
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxlrGX2jm7VDKHvM9xUUVPl0zS-BekbhxNOgFd6VqOvfP-Zkq6vYBKxIFsPfU_HYzx3/exec';
+        const scriptURL = 'https://api.sheetmonkey.io/form/vsGkPQhewC7igHa6nR86Wp';
 
         const form = document.getElementById('google-sheet-form');
         const successMsg = document.getElementById('success-message');
@@ -1401,7 +1401,7 @@
             submitBtn.style.opacity = '0.7';
 
             // Check if URL is placeholder. If yes, just show success locally.
-            if (scriptURL === 'https://script.google.com/macros/s/AKfycbxlrGX2jm7VDKHvM9xUUVPl0zS-BekbhxNOgFd6VqOvfP-Zkq6vYBKxIFsPfU_HYzx3/exec') {
+            if (scriptURL === 'https://api.sheetmonkey.io/form/vsGkPQhewC7igHa6nR86Wp') {
                 setTimeout(() => {
                     form.style.display = 'none';
                     successMsg.style.display = 'block';
